@@ -16,6 +16,7 @@ from PIL import Image
 
 def getAsciiImage(imageFile, maxWidth, maxHeight):
     try:
+        imageFile=unicode(imageFile,'utf8')
         img = Image.open(imageFile)
     except:
         exit("Cannot open image %s" % imageFile)
