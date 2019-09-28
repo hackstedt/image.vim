@@ -13,22 +13,22 @@ Features
 
 Requirements
 ============
-* Vim with *python* support. You can verify if your Vim is compiled with python using:
+* Vim with *python3* support. You can verify if your Vim is compiled with python3 using:
   
-  `vim --version | grep python`
+  `vim --version | grep python3`
 
-  If you see `+python`, your Vim has python support. If not, figure out how to get one.
+  If you see `+python3`, your Vim has python3 support. If not, figure out how to get one.
 
-* Also needs the Python library PIL. You can install PIL using `pip install Pillow`
+* Also needs the Python3 library PIL. You can install PIL using `pip install Pillow`
 
 Installation
 ============
 * [Pathogen](https://github.com/tpope/vim-pathogen)
-  *  `git clone https://github.com/ashisha/image.vim ~/.vim/bundle/image.vim`
+  *  `git clone https://github.com/hackstedt/image.vim ~/.vim/bundle/image.vim`
 * [Vundle](https://github.com/gmarik/vundle)
-  * `Plugin 'ashisha/image.vim'`
+  * `Plugin 'hackstedt/image.vim'`
 * [NeoBundle](https://github.com/Shougo/neobundle.vim)
-  * `NeoBundle 'ashisha/image.vim'`
+  * `NeoBundle 'hackstedt/image.vim'`
 * Manual
   * Copy image.vim into your `~/.vim/plugin/` directory
 
